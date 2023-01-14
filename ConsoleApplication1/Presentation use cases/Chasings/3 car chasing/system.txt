@@ -1,0 +1,17 @@
+variables: 
+  tcar1_0, xcar1_0, vcar1_0, tcar1_1, xcar1_1, vcar1_1, tcar2_0, xcar2_0, vcar2_0, tcar2_1, xcar2_1, vcar2_1, car1coll_0, car2coll_0, tcar1_car2coll_0, tcar3_0, xcar3_0, vcar3_0, tcar3_1, xcar3_1, vcar3_1, car2coll_1, car3coll_0, tcar2_car3coll_0
+box: 
+  ([0, 0] ; [0, 0] ; [2.77778, 25] ; [10, 10] ; [90, 100] ; [0.277778, 2.77778] ; [0, 0] ; [15, 20] ; [2.77778, 25] ; [10, 10] ; [100, 100] ; [5.55556, 19.4444] ; [20, 100] ; [20, 100] ; [0, 10] ; [0, 0] ; [30, 32] ; [0.277778, 41.6667] ; [10, 10] ; [100, 100] ; [0.277778, 41.6667] ; [32, 100] ; [32, 100] ; [0, 10])
+goal: 
+  (none)
+constraints:
+  ((xcar1_1-xcar1_0)-(0.5*((vcar1_0+vcar1_1)*(tcar1_1-tcar1_0))))=0
+  ((xcar2_1-xcar2_0)-(0.5*((vcar2_0+vcar2_1)*(tcar2_1-tcar2_0))))=0
+  (car1coll_0-((xcar1_0+(vcar1_0*(tcar1_car2coll_0-tcar1_0)))+(0.5*((((vcar1_1-vcar1_0)/(tcar1_1-tcar1_0))*(tcar1_car2coll_0-tcar1_0))*(tcar1_car2coll_0-tcar1_0)))))=0
+  (car2coll_0-((xcar2_0+(vcar2_0*(tcar1_car2coll_0-tcar2_0)))+(0.5*((((vcar2_1-vcar2_0)/(tcar2_1-tcar2_0))*(tcar1_car2coll_0-tcar2_0))*(tcar1_car2coll_0-tcar2_0)))))=0
+  ((car1coll_0-car2coll_0)+2)=0
+  ((xcar3_1-xcar3_0)-(0.5*((vcar3_0+vcar3_1)*(tcar3_1-tcar3_0))))=0
+  (car2coll_1-((xcar2_0+(vcar2_0*(tcar2_car3coll_0-tcar2_0)))+(0.5*((((vcar2_1-vcar2_0)/(tcar2_1-tcar2_0))*(tcar2_car3coll_0-tcar2_0))*(tcar2_car3coll_0-tcar2_0)))))=0
+  (car3coll_0-((xcar3_0+(vcar3_0*(tcar2_car3coll_0-tcar3_0)))+(0.5*((((vcar3_1-vcar3_0)/(tcar3_1-tcar3_0))*(tcar2_car3coll_0-tcar3_0))*(tcar2_car3coll_0-tcar3_0)))))=0
+  ((car2coll_1-car3coll_0)+2)<0
+

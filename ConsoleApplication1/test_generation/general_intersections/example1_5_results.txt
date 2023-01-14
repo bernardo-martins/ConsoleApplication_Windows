@@ -1,0 +1,4 @@
+solution found: 1
+building time: 4.781887
+total solving time: 0.826890
+TOTAL TIMEEEEEEEE: 5.608777

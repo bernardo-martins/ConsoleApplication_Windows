@@ -1,0 +1,45 @@
+{
+	"h_axis" : 100,
+	"id" : 2,
+	"intersections" : null,
+	"roads" : 
+	[
+		{
+			"direction" : 1,
+			"h_axis0" : 0,
+			"h_axis1" : 100,
+			"id" : 0,
+			"n_lanes" : 1,
+			"v_axis0" : 22,
+			"v_axis1" : 24
+		},
+		{
+			"direction" : 1,
+			"h_axis0" : 18,
+			"h_axis1" : 20,
+			"id" : 1,
+			"n_lanes" : 1,
+			"v_axis0" : 0,
+			"v_axis1" : 100
+		},
+        {
+			"direction" : 1,
+			"h_axis0" : 0,
+			"h_axis1" : 100,
+			"id" : 2,
+			"n_lanes" : 1,
+			"v_axis0" : 10,
+			"v_axis1" : 12
+		},
+        {
+			"direction" : 1,
+			"h_axis0" : 0,
+			"h_axis1" : 100,
+			"id" : 3,
+			"n_lanes" : 1,
+			"v_axis0" : 30,
+			"v_axis1" : 32
+		}
+	], 
+	"v_axis" : 100
+}

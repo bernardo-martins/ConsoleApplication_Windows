@@ -1,0 +1,14 @@
+solution found: 1
+n_models: 8
+n_cars: 4
+n_vars: 32
+n_movements: 2
+eps: 0.010000
+numberSolutions: 1
+limitRun: 4
+limitTime: 7.000000
+building time: 22.387716
+timesRan: 3
+invalid models: 0
+solved model time to solve: 14.480657
+total solving time: 45.851824

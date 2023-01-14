@@ -1,0 +1,6 @@
+
+Here, one goal is the mapping of the information from a declarative point of view into one possible to be translated into the constraint modelling section.
+
+The DSL section extracts the information from a declarative point of view into one possible to be worked with by the constraint modelling section. 
+
+From such constraint paradigm, a set of tools is used in order to be possible to represent and simulate the results obtained into a either graphical or parameterized interface representation.

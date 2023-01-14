@@ -1,0 +1,99 @@
+simple intersection:
+
+number of models to process: 3
+total solutions: 2
+solution found: 1
+n_models: 2
+n_cars: 2
+n_vars: 16
+n_movements: 2
+eps: 0.100000
+numberSolutions: 1
+limitRun: 3
+limitTime: 7
+building: 0.468004
+timesRan: 1
+invalid models: 0
+solved model time to solve: 0.417999
+total solving time: 0.539996
+n_models_processed: 1
+
+---------------------------
+
+number of models to process: 3
+total solutions: 2
+solution found: 1
+n_models: 2
+n_cars: 2
+n_vars: 16
+n_movements: 2
+eps: 0.100000
+numberSolutions: 2
+limitRun: 3
+limitTime: 7
+building: 0.296000
+timesRan: 1
+invalid models: 0
+solved model time to solve: 8.03014
+total solving time: 8.12115
+n_models_processed: 1
+
+---------------------------
+
+number of models to process: 4
+total solutions: 4
+solution found: 1
+n_models: 2
+n_cars: 2
+n_vars: 16
+n_movements: 2
+eps: 0.100000
+numberSolutions: 3
+limitRun: 3
+limitTime: 7
+building: 0.302999
+timesRan: 1
+invalid models: 0
+solved model time to solve: 8.06491
+total solving time: 43.0407
+n_models_processed: 3
+
+---------------------------
+
+number of models to process: 4
+total solutions: 4
+solution found: 1
+n_models: 2
+n_cars: 2
+n_vars: 16
+n_movements: 2
+eps: 0.100000
+numberSolutions: 4
+limitRun: 3
+limitTime: 7
+building: 0.286426
+timesRan: 1
+invalid models: 0
+solved model time to solve: 7.323
+total solving time: 37.1895
+n_models_processed: 4
+
+---------------------------
+
+total solutions: 4
+solution found: 1
+n_models: 2
+n_cars: 2
+n_vars: 16
+n_movements: 2
+eps: 0.100000
+numberSolutions: 5
+limitRun: 3
+limitTime: 7
+building: 0.380994
+timesRan: 5
+invalid models: 0
+solved model time to solve: -127.386
+total solving time: 236.576
+n_models_processed: 10
+

@@ -1,0 +1,93 @@
+simple cut:
+
+number of models to process: 4
+total solutions: 1
+solution found: 1
+n_models: 2
+n_cars: 2
+n_vars: 15
+n_movements: 2
+eps: 0.100000
+numberSolutions: 1
+limitRun: 3
+limitTime: 7
+building: 0.087996
+timesRan: 2
+invalid models: 0
+solved model time to solve: 7.19505
+total solving time: 14.3301
+---------------------------
+
+number of models to process: 3
+total solutions: 2
+solution found: 1
+n_models: 2
+n_cars: 2
+n_vars: 15
+n_movements: 2
+eps: 0.100000
+numberSolutions: 2
+limitRun: 3
+limitTime: 7
+building: 0.078998
+timesRan: 1
+invalid models: 0
+solved model time to solve: 7.27723
+total solving time: 7.47623
+
+---------------------------
+
+total solutions: 2
+solution found: 1
+n_models: 2
+n_cars: 2
+n_vars: 15
+n_movements: 2
+eps: 0.100000
+numberSolutions: 3
+limitRun: 3
+limitTime: 10
+building: 0.128991
+timesRan: 5
+invalid models: 0
+solved model time to solve: -221.306
+total solving time: 332.122
+---------------------------
+
+total solutions: 2
+solution found: 1
+n_models: 2
+n_cars: 2
+n_vars: 15
+n_movements: 2
+eps: 0.100000
+numberSolutions: 4
+limitRun: 3
+limitTime: 7
+building: 0.109002
+timesRan: 5
+invalid models: 0
+solved model time to solve: -162.836
+total solving time: 235.813
+
+----------------------------
+
+total solutions: 2
+solution found: 1
+n_models: 2
+n_cars: 2
+n_vars: 15
+n_movements: 2
+eps: 0.100000
+numberSolutions: 5
+limitRun: 3
+limitTime: 7
+building: 0.107726
+timesRan: 5
+invalid models: 0
+solved model time to solve: -152.85
+total solving time: 223.991
+
+
+
+

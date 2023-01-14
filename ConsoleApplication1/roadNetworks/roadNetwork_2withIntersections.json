@@ -1,0 +1,80 @@
+{
+	"h_axis" : 100,
+	"id" : 2,
+	"intersections" : 
+	[
+		{
+			"id" : 1,
+			"lane0" : 0,
+			"lane1" : 0,
+			"road0" : 0,
+			"road1" : 1,
+			"x0" : 18.0,
+			"x1" : 20.0,
+			"y0" : 22.0,
+			"y1" : 24.0
+		},
+		{
+			"id" : 2,
+			"lane0" : 0,
+			"lane1" : 0,
+			"road0" : 1,
+			"road1" : 2,
+			"x0" : 18.0,
+			"x1" : 20.0,
+			"y0" : 10.0,
+			"y1" : 12.0
+		},
+		{
+			"id" : 3,
+			"lane0" : 0,
+			"lane1" : 0,
+			"road0" : 1,
+			"road1" : 3,
+			"x0" : 18.0,
+			"x1" : 20.0,
+			"y0" : 30.0,
+			"y1" : 32.0
+		}
+	],
+	"roads" : 
+	[
+		{
+			"direction" : 1,
+			"h_axis0" : 0,
+			"h_axis1" : 100,
+			"id" : 0,
+			"n_lanes" : 1,
+			"v_axis0" : 22,
+			"v_axis1" : 24
+		},
+		{
+			"direction" : 1,
+			"h_axis0" : 18,
+			"h_axis1" : 20,
+			"id" : 1,
+			"n_lanes" : 1,
+			"v_axis0" : 0,
+			"v_axis1" : 100
+		},
+		{
+			"direction" : 1,
+			"h_axis0" : 0,
+			"h_axis1" : 100,
+			"id" : 2,
+			"n_lanes" : 1,
+			"v_axis0" : 10,
+			"v_axis1" : 12
+		},
+		{
+			"direction" : 1,
+			"h_axis0" : 0,
+			"h_axis1" : 100,
+			"id" : 3,
+			"n_lanes" : 1,
+			"v_axis0" : 30,
+			"v_axis1" : 32
+		}
+	],
+	"v_axis" : 100
+}

@@ -1,0 +1,23 @@
+{
+        "id" : 3,
+        "h_axis" : 100,
+        "v_axis" : 100,
+        "roads" : 
+        [
+            {
+                "id" : 0,
+                "direction" : 0,
+                "n_lanes" : 1,
+                "h_axis0" : 0, "h_axis1" : 100,
+                "v_axis0" : 46, "v_axis1" : 50
+            },
+            {
+                "id" : 1,
+                "direction" : 1,
+                "n_lanes" : 2,
+                "h_axis0" : 47, "h_axis1" : 53,
+                "v_axis0" : 0, "v_axis1" : 100
+            }
+        ]
+        "intersections" : null
+}

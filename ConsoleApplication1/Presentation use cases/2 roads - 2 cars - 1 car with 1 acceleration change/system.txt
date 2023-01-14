@@ -1,0 +1,86 @@
+variables: 
+  tcar1_0, xcar1_0, vcar1_0, tcar1_1, xcar1_1, vcar1_1, tcar1_2, xcar1_2, vcar1_2, tcar1_in0, tcar1_out0, tcar2_0, xcar2_0, vcar2_0, tcar2_1, xcar2_1, vcar2_1, tcar2_2, xcar2_2, vcar2_2, tcar2_in0, tcar2_out0
+box: 
+  ([0, 0] ; [0, 0] ; [0.277778, 27.7778] ; [2, 5] ; [20, 30] ; [0.277778, 27.7778] ; [10, 10] ; [100, 100] ; [0.277778, 27.7778] ; [0, 5] ; [0, 5] ; [0, 0] ; [0, 0] ; [0.277778, 25] ; [2, 5] ; [20, 30] ; [0.277778, 25] ; [10, 10] ; [100, 100] ; [0.277778, 25] ; [0, 5] ; [0, 5])
+goal: 
+  (none)
+constraints:
+  ((xcar1_1-xcar1_0)-(0.5*((vcar1_0+vcar1_1)*(tcar1_1-tcar1_0))))=0
+  ((xcar1_2-xcar1_1)-(0.5*((vcar1_1+vcar1_2)*(tcar1_2-tcar1_1))))=0
+  ((xcar1_1-xcar1_0)-(0.5*((vcar1_0+vcar1_1)*(tcar1_1-tcar1_0))))=0
+  ((xcar1_2-xcar1_1)-(0.5*((vcar1_1+vcar1_2)*(tcar1_2-tcar1_1))))=0
+  (tcar1_in0-tcar1_out0)<=0
+  (tcar1_0-tcar1_in0)<=0
+  (tcar1_1-tcar1_in0)>=0
+  (tcar1_0-tcar1_out0)<=0
+  (tcar1_out0-tcar1_1)<=0
+  (((-xcar1_0)-((vcar1_0*(tcar1_in0-tcar1_0))+(0.5*((((vcar1_1-vcar1_0)/(tcar1_1-tcar1_0))*(tcar1_in0-tcar1_0))*(tcar1_in0-tcar1_0)))))+20)=0
+  (((-xcar1_0)-((vcar1_0*(tcar1_out0-tcar1_0))+(0.5*((((vcar1_1-vcar1_0)/(tcar1_1-tcar1_0))*(tcar1_out0-tcar1_0))*(tcar1_out0-tcar1_0)))))+26)=0
+  ((xcar2_1-xcar2_0)-(0.5*((vcar2_0+vcar2_1)*(tcar2_1-tcar2_0))))=0
+  ((xcar2_2-xcar2_1)-(0.5*((vcar2_1+vcar2_2)*(tcar2_2-tcar2_1))))=0
+  ((xcar2_1-xcar2_0)-(0.5*((vcar2_0+vcar2_1)*(tcar2_1-tcar2_0))))=0
+  ((xcar2_2-xcar2_1)-(0.5*((vcar2_1+vcar2_2)*(tcar2_2-tcar2_1))))=0
+  (tcar2_in0-tcar2_out0)<=0
+  (tcar2_0-tcar2_in0)<=0
+  (tcar2_1-tcar2_in0)>=0
+  (tcar2_0-tcar2_out0)<=0
+  (tcar2_out0-tcar2_1)<=0
+  (((-xcar2_0)-((vcar2_0*(tcar2_in0-tcar2_0))+(0.5*((((vcar2_1-vcar2_0)/(tcar2_1-tcar2_0))*(tcar2_in0-tcar2_0))*(tcar2_in0-tcar2_0)))))+20)=0
+  (((-xcar2_0)-((vcar2_0*(tcar2_out0-tcar2_0))+(0.5*((((vcar2_1-vcar2_0)/(tcar2_1-tcar2_0))*(tcar2_out0-tcar2_0))*(tcar2_out0-tcar2_0)))))+24)=0
+  (tcar1_in0-tcar2_in0)<=0
+  (tcar2_in0-tcar1_out0)<=0
+  (tcar1_in0-tcar1_in0)<=0
+  (tcar1_in0-tcar1_out0)<=0
+  (tcar1_in0-tcar2_in0)<=0
+  (tcar2_in0-tcar1_out0)<=0
+  (tcar1_in0-tcar1_in0)<=0
+  (tcar1_in0-tcar1_out0)<=0
+  (tcar1_in0-tcar2_in0)<=0
+  (tcar2_in0-tcar1_out0)<=0
+  (tcar1_in0-tcar1_in0)<=0
+  (tcar1_in0-tcar1_out0)<=0
+  (tcar1_in0-tcar2_in0)<=0
+  (tcar2_in0-tcar1_out0)<=0
+  (tcar2_in0-tcar1_in0)<=0
+  (tcar1_in0-tcar2_out0)<=0
+  (tcar2_in0-tcar2_in0)<=0
+  (tcar2_in0-tcar2_out0)<=0
+  (tcar2_in0-tcar1_in0)<=0
+  (tcar1_in0-tcar2_out0)<=0
+  (tcar2_in0-tcar2_in0)<=0
+  (tcar2_in0-tcar2_out0)<=0
+  (tcar2_in0-tcar1_in0)<=0
+  (tcar1_in0-tcar2_out0)<=0
+  (tcar2_in0-tcar2_in0)<=0
+  (tcar2_in0-tcar2_out0)<=0
+  (tcar1_in0-tcar2_in0)<=0
+  (tcar2_in0-tcar1_out0)<=0
+  (tcar1_in0-tcar1_in0)<=0
+  (tcar1_in0-tcar1_out0)<=0
+  (tcar1_in0-tcar2_in0)<=0
+  (tcar2_in0-tcar1_out0)<=0
+  (tcar1_in0-tcar1_in0)<=0
+  (tcar1_in0-tcar1_out0)<=0
+  (tcar1_in0-tcar2_in0)<=0
+  (tcar2_in0-tcar1_out0)<=0
+  (tcar2_in0-tcar1_in0)<=0
+  (tcar1_in0-tcar2_out0)<=0
+  (tcar2_in0-tcar2_in0)<=0
+  (tcar2_in0-tcar2_out0)<=0
+  (tcar2_in0-tcar1_in0)<=0
+  (tcar1_in0-tcar2_out0)<=0
+  (tcar2_in0-tcar2_in0)<=0
+  (tcar2_in0-tcar2_out0)<=0
+  (tcar1_in0-tcar2_in0)<=0
+  (tcar2_in0-tcar1_out0)<=0
+  (tcar1_in0-tcar1_in0)<=0
+  (tcar1_in0-tcar1_out0)<=0
+  (tcar1_in0-tcar2_in0)<=0
+  (tcar2_in0-tcar1_out0)<=0
+  (tcar2_in0-tcar1_in0)<=0
+  (tcar1_in0-tcar2_out0)<=0
+  (tcar2_in0-tcar2_in0)<=0
+  (tcar2_in0-tcar2_out0)<=0
+  (tcar1_in0-tcar2_in0)<=0
+  (tcar2_in0-tcar1_out0)<=0
+

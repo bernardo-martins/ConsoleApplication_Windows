@@ -1,0 +1,51 @@
+variables
+        car0_vel_0 in [8.33, 13.89];
+        car0_pos_0 in [0,0]; 
+        car0_time_0 in [0,0];
+        car0_vel_1 in [8.33,16.67];
+        car0_pos_1 in [100,130];
+        car0_time_1 in [9,10];
+        
+        car1_vel_0 in [7.11,35];
+        car1_pos_0 in [2,4];
+        car1_time_0 in [0,0];
+        car1_vel_1 in [17.78,33.33];
+        car1_pos_1 in [0,100000];
+        car1_time_1 in [4,6];
+        car1_vel_2 in [0,100000];
+        car1_pos_2 in [140,150];
+        car1_time_2 in [12,13];
+
+        t_car0_in_1 in [0,10];
+        t_car0_out_1 in [0,10];
+        t_car1_in_1 in [0,10];
+        t_car1_out_1 in [0,10];
+
+constraints
+        car0_pos_1 - car0_pos_0 = 0.5 * ( car0_time_1 - car0_time_0 ) * ( car0_vel_0 + car0_vel_1);
+        
+        car1_pos_1 - car1_pos_0 = 0.5 * ( car1_time_1 - car1_time_0 ) * ( car1_vel_0 + car1_vel_1 );
+        car1_pos_2 - car1_pos_1 = 0.5 * ( car1_time_2 - car1_time_1 ) * ( car1_vel_1 + car1_vel_2 );
+
+        car0_pos_0 >= 0;
+        car0_pos_0 <= 123;
+
+        car0_pos_1 <= 123;
+        car0_pos_1 >= 0;
+
+        (car1_vel_1 - car1_vel_0)/(car1_time_1 - car1_time_0) <= 1;
+
+        (car1_vel_1 - car1_vel_0)/(car1_time_1 - car1_time_0) <= 3.5;
+
+        46 = car0_pos_0 + car0_vel_0 * (t_car0_in_1 - car0_time_0 ) + 0.5 * (car0_vel_1 - car0_vel_0)/(car0_time_1 - car0_time_0) * (t_car0_in_1 - car0_time_0)^2;
+
+        50 + 4 = car0_pos_0 + car0_vel_0 * (t_car0_out_1 - car0_time_0 ) + 0.5 * (car0_vel_1 - car0_vel_0)/(car0_time_1 - car0_time_0) * (car0_time_1 - t_car0_in_1) * ( t_car0_out_1 - car0_time_0 )^2;
+
+        100-53 = car1_pos_0 + car1_vel_0 * (t_car1_in_1 - car1_time_0) + 0.5 * (car1_vel_1 - car1_vel_0)/(car1_time_1 - car1_time_0) * (t_car1_in_1 - car1_time_0)^2;
+
+        100 - 50 + 4.9 = car1_pos_0 + car1_vel_0 * (t_car1_out_1 - car1_time_0) + 0.5 * (car1_vel_1 - car1_vel_0)/(car1_time_1 - car1_time_0) * (t_car1_out_1 - car1_time_0)^2;
+
+        t_car0_in_1 <= t_car1_in_1;
+        t_car1_in_1 <= t_car0_out_1;
+
+end

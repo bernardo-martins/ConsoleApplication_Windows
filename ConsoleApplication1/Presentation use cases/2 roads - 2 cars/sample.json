@@ -1,0 +1,84 @@
+{
+    "id":"sc1",
+    "duration":10,
+    "networkID":1,
+    "cars":[
+       {
+          "id":"car1",
+          "width":2,
+          "length": 4,
+          "trajectories":[
+            {//existencial
+                "id": 0,
+                "v0": 1,
+                "v1": 150,
+                "p0": 0,
+                "p1": 0,
+                "t0": 0,
+                "t1": 0,
+                "road": 0,
+                "lane": 0
+            },
+            {//existencial
+                "id": 1,
+                "v0": 1,
+                "v1": 150,
+                "p0": 100,
+                "p1": 100,
+                "t0": 10,
+                "t1": 10,
+                //"a": 0,
+                "road": 0,
+                "lane": 0
+            }
+          ],
+        "universal": [
+            {
+                "t0":0,
+                "t1":10,
+                "v0":1,
+                "v1": 100
+            }
+        ]}
+       ,{
+        "id":"car2",
+        "width":2,
+        "length": 2,
+        "trajectories":[
+            {//existencial
+                "id": 0,
+                "v0": 1,
+                "v1": 150,
+                "p0": 0,
+                "p1": 0,
+                "t0": 0,
+                "t1": 0,
+                "road": 1,
+                "lane": 0
+            },
+            {//existencial
+                "id": 1,
+                "v0": 1,
+                "v1": 150,
+                "p0": 100,
+                "p1": 100,
+                "t0": 10,
+                "t1": 10,
+                //"a": 0,
+                "road": 1,
+                "lane": 0
+            }],
+            "universal":[
+                {
+                "t0": 0,
+                "t1":10,
+                "v0":1,
+                "v1": 90
+                }
+            ]
+    }],
+    "goal":{
+        "cars": [["car1", "car2"]],
+        "collides": 1
+    }
+ }

@@ -1,0 +1,4 @@
+How the test occurs:
+- for each scenario, run it with an increasing number of solutions being searched, 10 times for each number of solutions, all simple scenarios.
+- for each scenario, increase the number of movements and see the time it takes to find 1 solution for each road.
+- for each scenario, increase the number of cars in the scenario and see the time it takes to find 1 solution for each road map.

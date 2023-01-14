@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../../../../:\MinGW\msys\1.0\home\ASUS\Ibex\ibex-2.8.9\examples\ConsoleApplication1\ConsoleApplication1\test_generation\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
